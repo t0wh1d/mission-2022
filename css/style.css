@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-.flexibleContainer{
+.flexible-Container{
     display: flex;
 }
 .half-width{
@@ -10,11 +10,11 @@ body{
     padding-left: 13%;
     padding-top: 5%;
 }
-.main-title{
+.intro-title{
     margin-top: 30px;
     font-size: 25px;
 }
-.boxline{
+.accent-line{
     padding-left: 10px;
     border-left: 6px solid;
     height: 100px;
@@ -25,7 +25,7 @@ body{
 .accent-color{
     color: #8633ff;
 }
-.FirstPara{
+.intro-para{
     margin-bottom: 40px;
     line-height: 1.6;
 }
@@ -46,7 +46,7 @@ body{
     color: white;
     font-size: 19px;
 }
-.scrolldown{
+.small-text{
     margin-top: 50px;
     font-size: smaller;
 }
@@ -59,15 +59,15 @@ body{
     margin-top: 70px;
     font-weight: 900;
 }
-.three-width{
+.three-item{
     padding-left: 15%;
     padding-right: 10%;
     margin-top: 70px;
 }
-.three-width img{
+.three-item img{
     width: 60%;
 }
-#ss1{
+#item1{
     background-image: linear-gradient(-45deg, #cb6bff, #dc9bff);
     width: 750px;
     margin: 0 20px;
@@ -78,7 +78,7 @@ body{
     border-radius: 25px;
     line-height: 1.4;
 }
-#ss2{
+#item2{
     background-image: linear-gradient(-45deg, #9e00f3, #d588ff);
     width: 750px;
     margin: 0 20px;
@@ -89,7 +89,7 @@ body{
     border-radius: 25px;
     line-height: 1.4;
 }
-#ss3{
+#item3{
     background-image: linear-gradient(-45deg, #440069, #d588ff);
     width: 750px;
     margin: 0 20px;
@@ -100,26 +100,26 @@ body{
     border-radius: 15px;
     line-height: 1.4;
 }
-.thirdSection{
+.learning-bg{
     background-image: url(/images/shapes/shape-7.png);
     background-position: 10% 50%;
     background-repeat: no-repeat;
     background-size: 15%;
     margin-top: 100px;
 }
-.thirdImage{
+.learningImage{
     width: 110%;
 }
-.thirdSecText{
+.learning-head{
     padding-right: 9%;
     padding-left: 8%;
     margin-top: 100px;
 }
-.thirdPara{
+.learning-para{
     margin-bottom: 50px;
     line-height: 1.6;
 }
-.fourthSection{
+.helping-bg{
     background-image: url(/images/shapes/shape-1.png);
     background-position: 93% 100%;
     background-repeat: no-repeat;
@@ -128,27 +128,27 @@ body{
 .newWidth{
     width: 90%;
 }
-.fourthSecText{
+.helping-head{
     padding-right: 5%;
     padding-left: 13%;
     margin-top: 50px;
 }
-.fourthPara{
+.helping-para{
     margin-bottom: 50px;
     line-height: 1.6;
 }
-.fourthImage{
+.helpingImage{
     width: 55%;
     padding-left: 15%;
 }
-.creative{
+.creative-section{
     background-image: url(/images/pictures/coding.jpg);
     background-size: 2000px;
     width: 100%;
     height: 800px;
     margin-top: 100px;
 }
-.Lwt{
+.lets-work{
     font-size: 70px;
     color: rgb(255, 255, 255);
     position: relative;
@@ -164,7 +164,7 @@ body{
     text-align: center;
     margin-top: 350px;
 }
-.popup {
+.popup{
     margin: 100px auto;
     padding: 20px;
     background: rgb(255, 255, 255);
@@ -173,13 +173,13 @@ body{
     position: relative;
     transition: all 1s ease-in-out;
 }
-.popup h2 {
+.popup h2{
     text-align: center;
     margin-top: 0;
     color: #be46ff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.popup .close {
+.popup .close{
     position: absolute;
     top: 10px;
     right: 20px;
@@ -189,14 +189,14 @@ body{
     text-decoration: none;
     color: #000000;
 }
-.popup .close:hover {
+.popup .close:hover{
     color: #be46ff;
 }
-.popup .content {
+.popup .content{
     max-height: 30%;
     text-align: center;
 }
-.overlay {
+.overlay{
     position: fixed;
     top: 0;
     bottom: 0;
@@ -207,7 +207,7 @@ body{
     visibility: hidden;
     opacity: 0;
 }
-.overlay:target {
+.overlay:target{
     visibility: visible;
     opacity: 1;
 }
